@@ -147,7 +147,7 @@ namespace UnitTestProject1
         public void Given_QId_And_OptId_fetch_MonitorName()
         {
             string expected = chatbot.MonitorFetch(new OptionsTbl { option_id = 3, question_id = 12 });
-            string actual = "IntelliVue GS";
+            string actual = "Intellivue GS";
             Assert.AreEqual(expected, actual);
         }
         #endregion

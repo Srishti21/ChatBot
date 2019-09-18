@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\320066605\OneDrive - Philips\Documents\Philips_Chatbot\ChatbotServer\chatbotrepo\DAL\ChatbotDataModel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\320067504\New folder\ChatBot\ChatbotServer\chatbotrepo\DAL\ChatbotDataModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
