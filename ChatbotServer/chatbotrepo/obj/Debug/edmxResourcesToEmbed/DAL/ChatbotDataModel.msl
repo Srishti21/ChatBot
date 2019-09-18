@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ChatbotModelStoreContainer" CdmEntityContainer="ChatbotEntities">
+    <EntitySetMapping Name="CustomersTbls">
+      <EntityTypeMapping TypeName="ChatbotModel.CustomersTbl">
+        <MappingFragment StoreEntitySet="CustomersTbl">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="contact" ColumnName="contact" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="monitor" ColumnName="monitor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MonitorsTbls">
+      <EntityTypeMapping TypeName="ChatbotModel.MonitorsTbl">
+        <MappingFragment StoreEntitySet="MonitorsTbl">
+          <ScalarProperty Name="monitor_id" ColumnName="monitor_id" />
+          <ScalarProperty Name="monitor_name" ColumnName="monitor_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuestionsTbls">
+      <EntityTypeMapping TypeName="ChatbotModel.QuestionsTbl">
+        <MappingFragment StoreEntitySet="QuestionsTbl">
+          <ScalarProperty Name="question_id" ColumnName="question_id" />
+          <ScalarProperty Name="question" ColumnName="question" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OptionsTbls">
+      <EntityTypeMapping TypeName="ChatbotModel.OptionsTbl">
+        <MappingFragment StoreEntitySet="OptionsTbl">
+          <ScalarProperty Name="option_id" ColumnName="option_id" />
+          <ScalarProperty Name="option" ColumnName="option" />
+          <ScalarProperty Name="link_id" ColumnName="link_id" />
+          <ScalarProperty Name="monitor_id" ColumnName="monitor_id" />
+          <ScalarProperty Name="question_id" ColumnName="question_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

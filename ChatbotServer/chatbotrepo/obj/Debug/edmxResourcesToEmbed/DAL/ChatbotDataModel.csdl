@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ChatbotModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CustomersTbl">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="contact" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="address" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="monitor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="MonitorsTbl">
+    <Key>
+      <PropertyRef Name="monitor_id" />
+    </Key>
+    <Property Name="monitor_id" Type="Int32" Nullable="false" />
+    <Property Name="monitor_name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="OptionsTbls" Relationship="ChatbotModel.FK__OptionsTb__monit__282DF8C2" FromRole="MonitorsTbl" ToRole="OptionsTbl" />
+  </EntityType>
+  <EntityType Name="QuestionsTbl">
+    <Key>
+      <PropertyRef Name="question_id" />
+    </Key>
+    <Property Name="question_id" Type="Int32" Nullable="false" />
+    <Property Name="question" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="OptionsTbls" Relationship="ChatbotModel.FK__OptionsTb__quest__2739D489" FromRole="QuestionsTbl" ToRole="OptionsTbl" />
+  </EntityType>
+  <EntityType Name="OptionsTbl">
+    <Key>
+      <PropertyRef Name="option_id" />
+      <PropertyRef Name="link_id" />
+      <PropertyRef Name="monitor_id" />
+      <PropertyRef Name="question_id" />
+    </Key>
+    <Property Name="option_id" Type="Int32" Nullable="false" />
+    <Property Name="option" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="link_id" Type="Int32" Nullable="false" />
+    <Property Name="monitor_id" Type="Int32" Nullable="false" />
+    <Property Name="question_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="MonitorsTbl" Relationship="ChatbotModel.FK__OptionsTb__monit__282DF8C2" FromRole="OptionsTbl" ToRole="MonitorsTbl" />
+    <NavigationProperty Name="QuestionsTbl" Relationship="ChatbotModel.FK__OptionsTb__quest__2739D489" FromRole="OptionsTbl" ToRole="QuestionsTbl" />
+  </EntityType>
+  <EntityContainer Name="ChatbotEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CustomersTbls" EntityType="Self.CustomersTbl" />
+    <EntitySet Name="MonitorsTbls" EntityType="Self.MonitorsTbl" />
+    <EntitySet Name="QuestionsTbls" EntityType="Self.QuestionsTbl" />
+    <EntitySet Name="OptionsTbls" EntityType="Self.OptionsTbl" />
+    <AssociationSet Name="FK__OptionsTb__monit__282DF8C2" Association="ChatbotModel.FK__OptionsTb__monit__282DF8C2">
+      <End Role="MonitorsTbl" EntitySet="MonitorsTbls" />
+      <End Role="OptionsTbl" EntitySet="OptionsTbls" />
+    </AssociationSet>
+    <AssociationSet Name="FK__OptionsTb__quest__2739D489" Association="ChatbotModel.FK__OptionsTb__quest__2739D489">
+      <End Role="QuestionsTbl" EntitySet="QuestionsTbls" />
+      <End Role="OptionsTbl" EntitySet="OptionsTbls" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK__OptionsTb__monit__282DF8C2">
+    <End Type="ChatbotModel.MonitorsTbl" Role="MonitorsTbl" Multiplicity="1" />
+    <End Type="ChatbotModel.OptionsTbl" Role="OptionsTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MonitorsTbl">
+        <PropertyRef Name="monitor_id" />
+      </Principal>
+      <Dependent Role="OptionsTbl">
+        <PropertyRef Name="monitor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__OptionsTb__quest__2739D489">
+    <End Type="ChatbotModel.QuestionsTbl" Role="QuestionsTbl" Multiplicity="1" />
+    <End Type="ChatbotModel.OptionsTbl" Role="OptionsTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QuestionsTbl">
+        <PropertyRef Name="question_id" />
+      </Principal>
+      <Dependent Role="OptionsTbl">
+        <PropertyRef Name="question_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

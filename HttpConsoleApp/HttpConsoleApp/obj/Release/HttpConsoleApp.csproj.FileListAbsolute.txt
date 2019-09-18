@@ -1,0 +1,14 @@
+C:\Users\320069332\source\repos\HttpConsoleApp\HttpConsoleApp\bin\Release\HttpConsoleApp.exe.config
+C:\Users\320069332\source\repos\HttpConsoleApp\HttpConsoleApp\bin\Release\HttpConsoleApp.exe
+C:\Users\320069332\source\repos\HttpConsoleApp\HttpConsoleApp\bin\Release\HttpConsoleApp.pdb
+C:\Users\320069332\source\repos\HttpConsoleApp\HttpConsoleApp\bin\Release\CsQuery.dll
+C:\Users\320069332\source\repos\HttpConsoleApp\HttpConsoleApp\bin\Release\Newtonsoft.Json.dll
+C:\Users\320069332\source\repos\HttpConsoleApp\HttpConsoleApp\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\320069332\source\repos\HttpConsoleApp\HttpConsoleApp\bin\Release\CsQuery.xml
+C:\Users\320069332\source\repos\HttpConsoleApp\HttpConsoleApp\bin\Release\Newtonsoft.Json.xml
+C:\Users\320069332\source\repos\HttpConsoleApp\HttpConsoleApp\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\320069332\source\repos\HttpConsoleApp\HttpConsoleApp\obj\Release\HttpConsoleApp.csprojAssemblyReference.cache
+C:\Users\320069332\source\repos\HttpConsoleApp\HttpConsoleApp\obj\Release\HttpConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\320069332\source\repos\HttpConsoleApp\HttpConsoleApp\obj\Release\HttpConsoleApp.csproj.CopyComplete
+C:\Users\320069332\source\repos\HttpConsoleApp\HttpConsoleApp\obj\Release\HttpConsoleApp.exe
+C:\Users\320069332\source\repos\HttpConsoleApp\HttpConsoleApp\obj\Release\HttpConsoleApp.pdb

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelsStoreContainer" CdmEntityContainer="PatientMonitorContext">
+    <EntitySetMapping Name="monitors">
+      <EntityTypeMapping TypeName="Models.monitor">
+        <MappingFragment StoreEntitySet="monitors">
+          <ScalarProperty Name="monitorid" ColumnName="monitorid" />
+          <ScalarProperty Name="monitorname" ColumnName="monitorname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="optiontables">
+      <EntityTypeMapping TypeName="Models.optiontable">
+        <MappingFragment StoreEntitySet="optiontable">
+          <ScalarProperty Name="optionid" ColumnName="optionid" />
+          <ScalarProperty Name="options" ColumnName="options" />
+          <ScalarProperty Name="linkid" ColumnName="linkid" />
+          <ScalarProperty Name="monitor_id" ColumnName="monitor_id" />
+          <ScalarProperty Name="question_id" ColumnName="question_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="question_table">
+      <EntityTypeMapping TypeName="Models.question_table">
+        <MappingFragment StoreEntitySet="question_table">
+          <ScalarProperty Name="questionid" ColumnName="questionid" />
+          <ScalarProperty Name="questions" ColumnName="questions" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

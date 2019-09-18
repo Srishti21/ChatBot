@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Models.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="monitors">
+    <Key>
+      <PropertyRef Name="monitorid" />
+    </Key>
+    <Property Name="monitorid" Type="int" Nullable="false" />
+    <Property Name="monitorname" Type="text" />
+  </EntityType>
+  <EntityType Name="optiontable">
+    <Key>
+      <PropertyRef Name="optionid" />
+      <PropertyRef Name="question_id" />
+    </Key>
+    <Property Name="optionid" Type="int" Nullable="false" />
+    <Property Name="options" Type="text" />
+    <Property Name="linkid" Type="int" />
+    <Property Name="monitor_id" Type="int" />
+    <Property Name="question_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="question_table">
+    <Key>
+      <PropertyRef Name="questionid" />
+    </Key>
+    <Property Name="questionid" Type="int" Nullable="false" />
+    <Property Name="questions" Type="text" />
+  </EntityType>
+  <Association Name="FK__optiontab__linki__44FF419A">
+    <End Role="question_table" Type="Self.question_table" Multiplicity="0..1" />
+    <End Role="optiontable" Type="Self.optiontable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="question_table">
+        <PropertyRef Name="questionid" />
+      </Principal>
+      <Dependent Role="optiontable">
+        <PropertyRef Name="linkid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__optiontab__monit__403A8C7D">
+    <End Role="monitors" Type="Self.monitors" Multiplicity="0..1" />
+    <End Role="optiontable" Type="Self.optiontable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="monitors">
+        <PropertyRef Name="monitorid" />
+      </Principal>
+      <Dependent Role="optiontable">
+        <PropertyRef Name="monitor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__optiontab__quest__412EB0B6">
+    <End Role="question_table" Type="Self.question_table" Multiplicity="1" />
+    <End Role="optiontable" Type="Self.optiontable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="question_table">
+        <PropertyRef Name="questionid" />
+      </Principal>
+      <Dependent Role="optiontable">
+        <PropertyRef Name="question_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModelsStoreContainer">
+    <EntitySet Name="monitors" EntityType="Self.monitors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="optiontable" EntityType="Self.optiontable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="question_table" EntityType="Self.question_table" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__optiontab__linki__44FF419A" Association="Self.FK__optiontab__linki__44FF419A">
+      <End Role="question_table" EntitySet="question_table" />
+      <End Role="optiontable" EntitySet="optiontable" />
+    </AssociationSet>
+    <AssociationSet Name="FK__optiontab__monit__403A8C7D" Association="Self.FK__optiontab__monit__403A8C7D">
+      <End Role="monitors" EntitySet="monitors" />
+      <End Role="optiontable" EntitySet="optiontable" />
+    </AssociationSet>
+    <AssociationSet Name="FK__optiontab__quest__412EB0B6" Association="Self.FK__optiontab__quest__412EB0B6">
+      <End Role="question_table" EntitySet="question_table" />
+      <End Role="optiontable" EntitySet="optiontable" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

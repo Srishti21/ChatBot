@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Models" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="monitor">
+    <Key>
+      <PropertyRef Name="monitorid" />
+    </Key>
+    <Property Name="monitorid" Type="Int32" Nullable="false" />
+    <Property Name="monitorname" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="optiontables" Relationship="Self.FK__optiontab__monit__403A8C7D" FromRole="monitors" ToRole="optiontable" />
+  </EntityType>
+  <EntityType Name="optiontable">
+    <Key>
+      <PropertyRef Name="optionid" />
+      <PropertyRef Name="question_id" />
+    </Key>
+    <Property Name="optionid" Type="Int32" Nullable="false" />
+    <Property Name="options" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="linkid" Type="Int32" />
+    <Property Name="monitor_id" Type="Int32" />
+    <Property Name="question_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="monitor" Relationship="Self.FK__optiontab__monit__403A8C7D" FromRole="optiontable" ToRole="monitors" />
+    <NavigationProperty Name="question_table" Relationship="Self.FK__optiontab__linki__44FF419A" FromRole="optiontable" ToRole="question_table" />
+    <NavigationProperty Name="question_table1" Relationship="Self.FK__optiontab__quest__412EB0B6" FromRole="optiontable" ToRole="question_table" />
+  </EntityType>
+  <EntityType Name="question_table">
+    <Key>
+      <PropertyRef Name="questionid" />
+    </Key>
+    <Property Name="questionid" Type="Int32" Nullable="false" />
+    <Property Name="questions" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="optiontables" Relationship="Self.FK__optiontab__linki__44FF419A" FromRole="question_table" ToRole="optiontable" />
+    <NavigationProperty Name="optiontables1" Relationship="Self.FK__optiontab__quest__412EB0B6" FromRole="question_table" ToRole="optiontable" />
+  </EntityType>
+  <Association Name="FK__optiontab__monit__403A8C7D">
+    <End Role="monitors" Type="Self.monitor" Multiplicity="0..1" />
+    <End Role="optiontable" Type="Self.optiontable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="monitors">
+        <PropertyRef Name="monitorid" />
+      </Principal>
+      <Dependent Role="optiontable">
+        <PropertyRef Name="monitor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__optiontab__linki__44FF419A">
+    <End Role="question_table" Type="Self.question_table" Multiplicity="0..1" />
+    <End Role="optiontable" Type="Self.optiontable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="question_table">
+        <PropertyRef Name="questionid" />
+      </Principal>
+      <Dependent Role="optiontable">
+        <PropertyRef Name="linkid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__optiontab__quest__412EB0B6">
+    <End Role="question_table" Type="Self.question_table" Multiplicity="1" />
+    <End Role="optiontable" Type="Self.optiontable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="question_table">
+        <PropertyRef Name="questionid" />
+      </Principal>
+      <Dependent Role="optiontable">
+        <PropertyRef Name="question_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PatientMonitorContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="monitors" EntityType="Self.monitor" />
+    <EntitySet Name="optiontables" EntityType="Self.optiontable" />
+    <EntitySet Name="question_table" EntityType="Self.question_table" />
+    <AssociationSet Name="FK__optiontab__monit__403A8C7D" Association="Self.FK__optiontab__monit__403A8C7D">
+      <End Role="monitors" EntitySet="monitors" />
+      <End Role="optiontable" EntitySet="optiontables" />
+    </AssociationSet>
+    <AssociationSet Name="FK__optiontab__linki__44FF419A" Association="Self.FK__optiontab__linki__44FF419A">
+      <End Role="question_table" EntitySet="question_table" />
+      <End Role="optiontable" EntitySet="optiontables" />
+    </AssociationSet>
+    <AssociationSet Name="FK__optiontab__quest__412EB0B6" Association="Self.FK__optiontab__quest__412EB0B6">
+      <End Role="question_table" EntitySet="question_table" />
+      <End Role="optiontable" EntitySet="optiontables" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

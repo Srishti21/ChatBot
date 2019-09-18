@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ChatbotModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CustomersTbl">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="100" />
+    <Property Name="contact" Type="varchar" MaxLength="100" />
+    <Property Name="address" Type="text" />
+    <Property Name="monitor" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="MonitorsTbl">
+    <Key>
+      <PropertyRef Name="monitor_id" />
+    </Key>
+    <Property Name="monitor_id" Type="int" Nullable="false" />
+    <Property Name="monitor_name" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Chatbot.dbo.OptionsTbl' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="OptionsTbl">
+    <Key>
+      <PropertyRef Name="option_id" />
+      <PropertyRef Name="link_id" />
+      <PropertyRef Name="monitor_id" />
+      <PropertyRef Name="question_id" />
+    </Key>
+    <Property Name="option_id" Type="int" Nullable="false" />
+    <Property Name="option" Type="varchar" MaxLength="100" />
+    <Property Name="link_id" Type="int" Nullable="false" />
+    <Property Name="monitor_id" Type="int" Nullable="false" />
+    <Property Name="question_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="QuestionsTbl">
+    <Key>
+      <PropertyRef Name="question_id" />
+    </Key>
+    <Property Name="question_id" Type="int" Nullable="false" />
+    <Property Name="question" Type="text" />
+  </EntityType>
+  <Association Name="FK__OptionsTb__monit__282DF8C2">
+    <End Role="MonitorsTbl" Type="Self.MonitorsTbl" Multiplicity="1" />
+    <End Role="OptionsTbl" Type="Self.OptionsTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MonitorsTbl">
+        <PropertyRef Name="monitor_id" />
+      </Principal>
+      <Dependent Role="OptionsTbl">
+        <PropertyRef Name="monitor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__OptionsTb__quest__2739D489">
+    <End Role="QuestionsTbl" Type="Self.QuestionsTbl" Multiplicity="1" />
+    <End Role="OptionsTbl" Type="Self.OptionsTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QuestionsTbl">
+        <PropertyRef Name="question_id" />
+      </Principal>
+      <Dependent Role="OptionsTbl">
+        <PropertyRef Name="question_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ChatbotModelStoreContainer">
+    <EntitySet Name="CustomersTbl" EntityType="Self.CustomersTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MonitorsTbl" EntityType="Self.MonitorsTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QuestionsTbl" EntityType="Self.QuestionsTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OptionsTbl" EntityType="Self.OptionsTbl" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [OptionsTbl].[option_id] AS [option_id], 
+    [OptionsTbl].[option] AS [option], 
+    [OptionsTbl].[link_id] AS [link_id], 
+    [OptionsTbl].[monitor_id] AS [monitor_id], 
+    [OptionsTbl].[question_id] AS [question_id]
+    FROM [dbo].[OptionsTbl] AS [OptionsTbl]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__OptionsTb__monit__282DF8C2" Association="Self.FK__OptionsTb__monit__282DF8C2">
+      <End Role="MonitorsTbl" EntitySet="MonitorsTbl" />
+      <End Role="OptionsTbl" EntitySet="OptionsTbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK__OptionsTb__quest__2739D489" Association="Self.FK__OptionsTb__quest__2739D489">
+      <End Role="QuestionsTbl" EntitySet="QuestionsTbl" />
+      <End Role="OptionsTbl" EntitySet="OptionsTbl" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

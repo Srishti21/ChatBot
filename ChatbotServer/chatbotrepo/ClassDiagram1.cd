@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="chatbotrepo.MonitorRepository" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Repository\MonitorRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="chatbotrepo.OptionsRepository" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABCAAAAAAAAAAAACAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Repository\OptionsRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="chatbotrepo.QuestionRepository" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Repository\QuestionRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="chatbotrepo.Controllers.ChatBotController" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAEQAAAAAAAAIBIAAAAAAAAAiAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Controllers\ChatBotController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="chatbotrepo.DAL.ChatbotEntities" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAIAAAAAAAAEAAAAIAAAAQAAAAAAAA=</HashCode>
+      <FileName>DAL\ChatbotDataModel.Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="chatbotrepo.DAL.CustomersTbl" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAgAIEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>DAL\CustomersTbl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="chatbotrepo.DAL.MonitorsTbl">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQIAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAL\MonitorsTbl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="chatbotrepo.DAL.OptionsTbl">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAQAAAIAAAAAAAAABAAAAAIAAQACAAAAAA=</HashCode>
+      <FileName>DAL\OptionsTbl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="chatbotrepo.DAL.QuestionsTbl">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAIAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAL\QuestionsTbl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="chatbotrepo.Repository.CustomerRepository" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\CustomerRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="chatbotrepo.Repository.LinkIdFetch">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Repository\LinkIdFetch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="chatbotrepo.Repository.MonitorIdFetch">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Repository\MonitorIdFetch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.Mvc.Controller" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="chatbotrepo.IDataFetch">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Repository\IDataFetch.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="73346cd9-807a-456c-ac19-acc497163ed0" name="320069332@YY171291 2019-09-15 11:53:57" runUser="CODE1\320069332" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2019-09-15T11:53:57.5540483+05:30" queuing="2019-09-15T11:53:57.5540483+05:30" start="2019-09-15T11:53:40.7090952+05:30" finish="2019-09-15T11:53:59.6813602+05:30" />
+  <TestSettings name="default" id="1f096dce-1375-4252-9618-0c2d7014bf07">
+    <Deployment runDeploymentRoot="320069332_YY171291_2019-09-15_11_53_57" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="f934ef5a-b0de-46d8-9e9c-55c3d4ba4e99" testId="70daef5f-f0dd-d534-fc10-5d1eb5915fe1" testName="GivenQuestionIdAndOptionId_WhenItIsNotValid_ThenShouldNotReturnNextQuestionId" computerName="YY171291" duration="00:00:00.0058253" startTime="2019-09-15T11:53:57.6158826+05:30" endTime="2019-09-15T11:53:57.6218667+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f934ef5a-b0de-46d8-9e9c-55c3d4ba4e99" />
+    <UnitTestResult executionId="e30761eb-2e5a-402f-954e-b378ed2dd16f" testId="888fd4c8-934d-a8fa-4071-ba04c136168e" testName="GivenQuestionIdAndOptionId_WhenItIsValid_ThenReturnNextQuestionId" computerName="YY171291" duration="00:00:00.1218597" startTime="2019-09-15T11:53:57.4932100+05:30" endTime="2019-09-15T11:53:57.6158826+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e30761eb-2e5a-402f-954e-b378ed2dd16f" />
+    <UnitTestResult executionId="fc91c445-32c7-464f-ab29-a57d4a8c1ebc" testId="e864511e-df17-e755-a048-9b8735aca49d" testName="GivenQuestionId_WhenItIsValid_ThenDisplayCorrectQuestion2" computerName="YY171291" duration="00:00:00.0063476" startTime="2019-09-15T11:53:57.6757218+05:30" endTime="2019-09-15T11:53:57.6827050+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc91c445-32c7-464f-ab29-a57d4a8c1ebc" />
+    <UnitTestResult executionId="0d5e0cec-456f-4c88-9c64-9e8aa52e5ac3" testId="3ff9f01d-c5e3-64bf-6b50-530fbb04ad9f" testName="GivenQuestionIdAndOptionId_WhenItIsValid_ThenReturnCorrespondingMonitorId" computerName="YY171291" duration="00:00:00.0141140" startTime="2019-09-15T11:53:57.6228643+05:30" endTime="2019-09-15T11:53:57.6368254+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d5e0cec-456f-4c88-9c64-9e8aa52e5ac3" />
+    <UnitTestResult executionId="434dbab4-dfdd-4d7b-82a8-37c8b7ec30aa" testId="bbcd847c-be17-4e46-ee3f-9c760634c9ab" testName="GivenQuestionIdAndOptionId_WhenItIsNotValid_ThenShouldNotReturnCorrespondingMonitorId" computerName="YY171291" duration="00:00:00.0042315" startTime="2019-09-15T11:53:57.6378278+05:30" endTime="2019-09-15T11:53:57.6428139+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="434dbab4-dfdd-4d7b-82a8-37c8b7ec30aa" />
+    <UnitTestResult executionId="ae5e1343-28e4-4630-892a-e684b6434553" testId="da89b2c1-1aa1-e3f9-0987-26677c041129" testName="GivenMonitoId_WhenItIsValid_ThenGiveCorrectMonitorName" computerName="YY171291" duration="00:00:10.2378541" startTime="2019-09-15T11:53:46.1754752+05:30" endTime="2019-09-15T11:53:57.3715361+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae5e1343-28e4-4630-892a-e684b6434553" />
+    <UnitTestResult executionId="221bfdb1-b33b-46e3-b39a-744d9fa727cc" testId="22e77793-f101-e83d-7e6a-15240446e24c" testName="GivenMonitoId_WhenItIsValid_ThenGiveCorrectMonitorName2" computerName="YY171291" duration="00:00:00.0219571" startTime="2019-09-15T11:53:57.4323728+05:30" endTime="2019-09-15T11:53:57.4553134+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="221bfdb1-b33b-46e3-b39a-744d9fa727cc" />
+    <UnitTestResult executionId="2645b966-f123-4971-8579-57046cb36dcc" testId="a184ff4d-3d6d-2991-2c0d-d19ae40efca0" testName="GivenMonitoId_WhenItIsNotValid_ThenShouldNotGiveCorrecttMonitorName" computerName="YY171291" duration="00:00:00.0069028" startTime="2019-09-15T11:53:57.4563093+05:30" endTime="2019-09-15T11:53:57.4642890+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2645b966-f123-4971-8579-57046cb36dcc" />
+    <UnitTestResult executionId="af23b4ab-5140-4826-b6d7-0eb56e2b1e64" testId="1c076f3c-6236-4088-8a95-7cca65b0ab48" testName="GivenQuestionIdAndOptionId_WhenItIsValid_ThenReturnCorrespondingMonitorId2" computerName="YY171291" duration="00:00:00.0227559" startTime="2019-09-15T11:53:57.6428139+05:30" endTime="2019-09-15T11:53:57.6657513+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af23b4ab-5140-4826-b6d7-0eb56e2b1e64" />
+    <UnitTestResult executionId="f82bd1ac-3eae-453e-8f16-1ef6e64a5ba3" testId="2d4586ed-715f-3e5b-a966-5ed86c08e637" testName="GivenQuestionIdAndOptionId_WhenItIsValid_ThenReturnCorrespondingNextQuestionId" computerName="YY171291" duration="00:00:00.0041775" startTime="2019-09-15T11:53:57.6667515+05:30" endTime="2019-09-15T11:53:57.6717359+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f82bd1ac-3eae-453e-8f16-1ef6e64a5ba3" />
+    <UnitTestResult executionId="84b51f18-5204-4d2d-956b-9fe69987e0d8" testId="24f66ac8-fbff-7bfc-09ba-b515e8f1ed49" testName="GivenQuestionId_WhenItIsValid_ThenDisplayCorrectQuestion" computerName="YY171291" duration="00:00:00.0265170" startTime="2019-09-15T11:53:57.4652860+05:30" endTime="2019-09-15T11:53:57.4932100+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84b51f18-5204-4d2d-956b-9fe69987e0d8" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="GivenMonitoId_WhenItIsValid_ThenGiveCorrectMonitorName" storage="c:\users\320069332\source\repos\chatbotrepo\chatbotunittest\bin\debug\chatbotunittest.dll" id="da89b2c1-1aa1-e3f9-0987-26677c041129">
+      <Execution id="ae5e1343-28e4-4630-892a-e684b6434553" />
+      <TestMethod codeBase="C:\Users\320069332\source\repos\chatbotrepo\ChatbotUnitTest\bin\Debug\ChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject1.ChatBotControllerTest" name="GivenMonitoId_WhenItIsValid_ThenGiveCorrectMonitorName" />
+    </UnitTest>
+    <UnitTest name="GivenQuestionIdAndOptionId_WhenItIsValid_ThenReturnCorrespondingMonitorId2" storage="c:\users\320069332\source\repos\chatbotrepo\chatbotunittest\bin\debug\chatbotunittest.dll" id="1c076f3c-6236-4088-8a95-7cca65b0ab48">
+      <Execution id="af23b4ab-5140-4826-b6d7-0eb56e2b1e64" />
+      <TestMethod codeBase="C:\Users\320069332\source\repos\chatbotrepo\ChatbotUnitTest\bin\Debug\ChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject1.ChatBotControllerTest" name="GivenQuestionIdAndOptionId_WhenItIsValid_ThenReturnCorrespondingMonitorId2" />
+    </UnitTest>
+    <UnitTest name="GivenQuestionIdAndOptionId_WhenItIsNotValid_ThenShouldNotReturnNextQuestionId" storage="c:\users\320069332\source\repos\chatbotrepo\chatbotunittest\bin\debug\chatbotunittest.dll" id="70daef5f-f0dd-d534-fc10-5d1eb5915fe1">
+      <Execution id="f934ef5a-b0de-46d8-9e9c-55c3d4ba4e99" />
+      <TestMethod codeBase="C:\Users\320069332\source\repos\chatbotrepo\ChatbotUnitTest\bin\Debug\ChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject1.ChatBotControllerTest" name="GivenQuestionIdAndOptionId_WhenItIsNotValid_ThenShouldNotReturnNextQuestionId" />
+    </UnitTest>
+    <UnitTest name="GivenQuestionIdAndOptionId_WhenItIsValid_ThenReturnCorrespondingNextQuestionId" storage="c:\users\320069332\source\repos\chatbotrepo\chatbotunittest\bin\debug\chatbotunittest.dll" id="2d4586ed-715f-3e5b-a966-5ed86c08e637">
+      <Execution id="f82bd1ac-3eae-453e-8f16-1ef6e64a5ba3" />
+      <TestMethod codeBase="C:\Users\320069332\source\repos\chatbotrepo\ChatbotUnitTest\bin\Debug\ChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject1.ChatBotControllerTest" name="GivenQuestionIdAndOptionId_WhenItIsValid_ThenReturnCorrespondingNextQuestionId" />
+    </UnitTest>
+    <UnitTest name="GivenQuestionId_WhenItIsValid_ThenDisplayCorrectQuestion" storage="c:\users\320069332\source\repos\chatbotrepo\chatbotunittest\bin\debug\chatbotunittest.dll" id="24f66ac8-fbff-7bfc-09ba-b515e8f1ed49">
+      <Execution id="84b51f18-5204-4d2d-956b-9fe69987e0d8" />
+      <TestMethod codeBase="C:\Users\320069332\source\repos\chatbotrepo\ChatbotUnitTest\bin\Debug\ChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject1.ChatBotControllerTest" name="GivenQuestionId_WhenItIsValid_ThenDisplayCorrectQuestion" />
+    </UnitTest>
+    <UnitTest name="GivenMonitoId_WhenItIsNotValid_ThenShouldNotGiveCorrecttMonitorName" storage="c:\users\320069332\source\repos\chatbotrepo\chatbotunittest\bin\debug\chatbotunittest.dll" id="a184ff4d-3d6d-2991-2c0d-d19ae40efca0">
+      <Execution id="2645b966-f123-4971-8579-57046cb36dcc" />
+      <TestMethod codeBase="C:\Users\320069332\source\repos\chatbotrepo\ChatbotUnitTest\bin\Debug\ChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject1.ChatBotControllerTest" name="GivenMonitoId_WhenItIsNotValid_ThenShouldNotGiveCorrecttMonitorName" />
+    </UnitTest>
+    <UnitTest name="GivenQuestionIdAndOptionId_WhenItIsValid_ThenReturnNextQuestionId" storage="c:\users\320069332\source\repos\chatbotrepo\chatbotunittest\bin\debug\chatbotunittest.dll" id="888fd4c8-934d-a8fa-4071-ba04c136168e">
+      <Execution id="e30761eb-2e5a-402f-954e-b378ed2dd16f" />
+      <TestMethod codeBase="C:\Users\320069332\source\repos\chatbotrepo\ChatbotUnitTest\bin\Debug\ChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject1.ChatBotControllerTest" name="GivenQuestionIdAndOptionId_WhenItIsValid_ThenReturnNextQuestionId" />
+    </UnitTest>
+    <UnitTest name="GivenQuestionIdAndOptionId_WhenItIsNotValid_ThenShouldNotReturnCorrespondingMonitorId" storage="c:\users\320069332\source\repos\chatbotrepo\chatbotunittest\bin\debug\chatbotunittest.dll" id="bbcd847c-be17-4e46-ee3f-9c760634c9ab">
+      <Execution id="434dbab4-dfdd-4d7b-82a8-37c8b7ec30aa" />
+      <TestMethod codeBase="C:\Users\320069332\source\repos\chatbotrepo\ChatbotUnitTest\bin\Debug\ChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject1.ChatBotControllerTest" name="GivenQuestionIdAndOptionId_WhenItIsNotValid_ThenShouldNotReturnCorrespondingMonitorId" />
+    </UnitTest>
+    <UnitTest name="GivenMonitoId_WhenItIsValid_ThenGiveCorrectMonitorName2" storage="c:\users\320069332\source\repos\chatbotrepo\chatbotunittest\bin\debug\chatbotunittest.dll" id="22e77793-f101-e83d-7e6a-15240446e24c">
+      <Execution id="221bfdb1-b33b-46e3-b39a-744d9fa727cc" />
+      <TestMethod codeBase="C:\Users\320069332\source\repos\chatbotrepo\ChatbotUnitTest\bin\Debug\ChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject1.ChatBotControllerTest" name="GivenMonitoId_WhenItIsValid_ThenGiveCorrectMonitorName2" />
+    </UnitTest>
+    <UnitTest name="GivenQuestionIdAndOptionId_WhenItIsValid_ThenReturnCorrespondingMonitorId" storage="c:\users\320069332\source\repos\chatbotrepo\chatbotunittest\bin\debug\chatbotunittest.dll" id="3ff9f01d-c5e3-64bf-6b50-530fbb04ad9f">
+      <Execution id="0d5e0cec-456f-4c88-9c64-9e8aa52e5ac3" />
+      <TestMethod codeBase="C:\Users\320069332\source\repos\chatbotrepo\ChatbotUnitTest\bin\Debug\ChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject1.ChatBotControllerTest" name="GivenQuestionIdAndOptionId_WhenItIsValid_ThenReturnCorrespondingMonitorId" />
+    </UnitTest>
+    <UnitTest name="GivenQuestionId_WhenItIsValid_ThenDisplayCorrectQuestion2" storage="c:\users\320069332\source\repos\chatbotrepo\chatbotunittest\bin\debug\chatbotunittest.dll" id="e864511e-df17-e755-a048-9b8735aca49d">
+      <Execution id="fc91c445-32c7-464f-ab29-a57d4a8c1ebc" />
+      <TestMethod codeBase="C:\Users\320069332\source\repos\chatbotrepo\ChatbotUnitTest\bin\Debug\ChatbotUnitTest.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject1.ChatBotControllerTest" name="GivenQuestionId_WhenItIsValid_ThenDisplayCorrectQuestion2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="70daef5f-f0dd-d534-fc10-5d1eb5915fe1" executionId="f934ef5a-b0de-46d8-9e9c-55c3d4ba4e99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="888fd4c8-934d-a8fa-4071-ba04c136168e" executionId="e30761eb-2e5a-402f-954e-b378ed2dd16f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e864511e-df17-e755-a048-9b8735aca49d" executionId="fc91c445-32c7-464f-ab29-a57d4a8c1ebc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ff9f01d-c5e3-64bf-6b50-530fbb04ad9f" executionId="0d5e0cec-456f-4c88-9c64-9e8aa52e5ac3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bbcd847c-be17-4e46-ee3f-9c760634c9ab" executionId="434dbab4-dfdd-4d7b-82a8-37c8b7ec30aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da89b2c1-1aa1-e3f9-0987-26677c041129" executionId="ae5e1343-28e4-4630-892a-e684b6434553" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22e77793-f101-e83d-7e6a-15240446e24c" executionId="221bfdb1-b33b-46e3-b39a-744d9fa727cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a184ff4d-3d6d-2991-2c0d-d19ae40efca0" executionId="2645b966-f123-4971-8579-57046cb36dcc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c076f3c-6236-4088-8a95-7cca65b0ab48" executionId="af23b4ab-5140-4826-b6d7-0eb56e2b1e64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d4586ed-715f-3e5b-a966-5ed86c08e637" executionId="f82bd1ac-3eae-453e-8f16-1ef6e64a5ba3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24f66ac8-fbff-7bfc-09ba-b515e8f1ed49" executionId="84b51f18-5204-4d2d-956b-9fe69987e0d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="11" executed="11" passed="11" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
