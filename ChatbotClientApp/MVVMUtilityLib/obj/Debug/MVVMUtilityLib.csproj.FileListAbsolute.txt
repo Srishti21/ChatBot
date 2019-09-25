@@ -3,3 +3,9 @@ C:\Users\320066605\OneDrive - Philips\Documents\ChatbotClientApp\MVVMUtilityLib\
 C:\Users\320066605\OneDrive - Philips\Documents\ChatbotClientApp\MVVMUtilityLib\obj\Debug\MVVMUtilityLib.csproj.CoreCompileInputs.cache
 C:\Users\320066605\OneDrive - Philips\Documents\ChatbotClientApp\MVVMUtilityLib\obj\Debug\MVVMUtilityLib.dll
 C:\Users\320066605\OneDrive - Philips\Documents\ChatbotClientApp\MVVMUtilityLib\obj\Debug\MVVMUtilityLib.pdb
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\MVVMUtilityLib\bin\Debug\MVVMUtilityLib.dll
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\MVVMUtilityLib\bin\Debug\MVVMUtilityLib.pdb
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\MVVMUtilityLib\obj\Debug\MVVMUtilityLib.csproj.CoreCompileInputs.cache
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\MVVMUtilityLib\obj\Debug\MVVMUtilityLib.dll
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\MVVMUtilityLib\obj\Debug\MVVMUtilityLib.pdb
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\MVVMUtilityLib\obj\Debug\MVVMUtilityLib.csprojAssemblyReference.cache

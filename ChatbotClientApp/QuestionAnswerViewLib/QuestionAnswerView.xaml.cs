@@ -1,17 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows.Controls;
 
 namespace QuestionAnswerViewLib
 {
@@ -20,9 +7,29 @@ namespace QuestionAnswerViewLib
     /// </summary>
     public partial class QuestionAnswerView : UserControl
     {
+        QuestionAnswerViewModelLib.QuestionAnswerViewModel _vmRef = new QuestionAnswerViewModelLib.QuestionAnswerViewModel();
         public QuestionAnswerView()
         {
             InitializeComponent();
+
+            this.DataContext = _vmRef;
+            
+
+
+            // <TextBox Text="{Binding Source=_vmRef,Path=Result,Mode=OneWay}"/>
+
+            //Binding
+
+            //Binding _connector_result = new Binding();
+            ////source Object
+            //_connector_result.Source = _vmRef;
+            ////Source Property
+            //_connector_result.Path = new PropertyPath("Result");
+            ////Mode
+            //_connector_result.Mode = BindingMode.OneWay;
+            ////Set Target Property
+            //this.resultTextBox.SetBinding(TextBox.TextProperty, _connector_result);
+
         }
     }
 }

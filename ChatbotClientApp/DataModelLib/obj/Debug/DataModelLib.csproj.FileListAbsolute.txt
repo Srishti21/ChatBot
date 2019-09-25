@@ -1,0 +1,5 @@
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\DataModelLib\bin\Debug\DataModelLib.dll
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\DataModelLib\bin\Debug\DataModelLib.pdb
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\DataModelLib\obj\Debug\DataModelLib.csproj.CoreCompileInputs.cache
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\DataModelLib\obj\Debug\DataModelLib.dll
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\DataModelLib\obj\Debug\DataModelLib.pdb

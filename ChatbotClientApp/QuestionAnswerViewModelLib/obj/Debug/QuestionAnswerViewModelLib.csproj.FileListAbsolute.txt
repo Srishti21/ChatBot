@@ -1,0 +1,13 @@
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\bin\Debug\QuestionAnswerViewModelLib.dll
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\bin\Debug\QuestionAnswerViewModelLib.pdb
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\bin\Debug\DataModelLib.dll
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\bin\Debug\MVVMUtilityLib.dll
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\bin\Debug\DataModelLib.pdb
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\bin\Debug\MVVMUtilityLib.pdb
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\bin\Debug\Newtonsoft.Json.xml
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\obj\Debug\QuestionAnswerViewModelLib.csprojAssemblyReference.cache
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\obj\Debug\QuestionAnswerViewModelLib.csproj.CoreCompileInputs.cache
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\obj\Debug\QuestionAnswerViewModelLib.csproj.CopyComplete
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\obj\Debug\QuestionAnswerViewModelLib.dll
+C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\obj\Debug\QuestionAnswerViewModelLib.pdb

@@ -62,7 +62,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ViewModel\QuestionOptionsViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChatbotClientWindow.xaml.cs">
@@ -94,7 +93,20 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\MVVMUtilityLib\MVVMUtilityLib.csproj">
+      <Project>{169abd3f-19cd-4ab3-8dfc-65296713700f}</Project>
+      <Name>MVVMUtilityLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuestionAnswerViewLib\QuestionAnswerViewLib.csproj">
+      <Project>{daf474e7-1665-40a7-9280-96b8bc766f76}</Project>
+      <Name>QuestionAnswerViewLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuestionAnswerViewModelLib\QuestionAnswerViewModelLib.csproj">
+      <Project>{c8bbc4ef-6941-482b-a59d-720ef968f406}</Project>
+      <Name>QuestionAnswerViewModelLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Page Include="ChatbotClientWindow.xaml">
       <SubType>Designer</SubType>
