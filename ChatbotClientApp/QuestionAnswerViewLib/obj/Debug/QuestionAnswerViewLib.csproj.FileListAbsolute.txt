@@ -1,0 +1,13 @@
+C:\Users\320066605\OneDrive - Philips\Documents\ChatbotClientApp\QuestionAnswerViewLib\bin\Debug\QuestionAnswerViewLib.dll
+C:\Users\320066605\OneDrive - Philips\Documents\ChatbotClientApp\QuestionAnswerViewLib\bin\Debug\QuestionAnswerViewLib.pdb
+C:\Users\320066605\OneDrive - Philips\Documents\ChatbotClientApp\QuestionAnswerViewLib\obj\Debug\QuestionAnswerViewLib.csprojAssemblyReference.cache
+C:\Users\320066605\OneDrive - Philips\Documents\ChatbotClientApp\QuestionAnswerViewLib\obj\Debug\QuestionAnswerView.g.cs
+C:\Users\320066605\OneDrive - Philips\Documents\ChatbotClientApp\QuestionAnswerViewLib\obj\Debug\QuestionAnswerViewLib_MarkupCompile.cache
+C:\Users\320066605\OneDrive - Philips\Documents\ChatbotClientApp\QuestionAnswerViewLib\obj\Debug\QuestionAnswerViewLib_MarkupCompile.lref
+C:\Users\320066605\OneDrive - Philips\Documents\ChatbotClientApp\QuestionAnswerViewLib\obj\Debug\QuestionAnswerView.baml
+C:\Users\320066605\OneDrive - Philips\Documents\ChatbotClientApp\QuestionAnswerViewLib\obj\Debug\QuestionAnswerViewLib.g.resources
+C:\Users\320066605\OneDrive - Philips\Documents\ChatbotClientApp\QuestionAnswerViewLib\obj\Debug\QuestionAnswerViewLib.Properties.Resources.resources
+C:\Users\320066605\OneDrive - Philips\Documents\ChatbotClientApp\QuestionAnswerViewLib\obj\Debug\QuestionAnswerViewLib.csproj.GenerateResource.cache
+C:\Users\320066605\OneDrive - Philips\Documents\ChatbotClientApp\QuestionAnswerViewLib\obj\Debug\QuestionAnswerViewLib.csproj.CoreCompileInputs.cache
+C:\Users\320066605\OneDrive - Philips\Documents\ChatbotClientApp\QuestionAnswerViewLib\obj\Debug\QuestionAnswerViewLib.dll
+C:\Users\320066605\OneDrive - Philips\Documents\ChatbotClientApp\QuestionAnswerViewLib\obj\Debug\QuestionAnswerViewLib.pdb
