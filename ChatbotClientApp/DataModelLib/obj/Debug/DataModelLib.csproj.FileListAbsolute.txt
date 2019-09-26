@@ -3,3 +3,8 @@ C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClient
 C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\DataModelLib\obj\Debug\DataModelLib.csproj.CoreCompileInputs.cache
 C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\DataModelLib\obj\Debug\DataModelLib.dll
 C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\DataModelLib\obj\Debug\DataModelLib.pdb
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\DataModelLib\bin\Debug\DataModelLib.dll
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\DataModelLib\bin\Debug\DataModelLib.pdb
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\DataModelLib\obj\Debug\DataModelLib.csproj.CoreCompileInputs.cache
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\DataModelLib\obj\Debug\DataModelLib.dll
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\DataModelLib\obj\Debug\DataModelLib.pdb

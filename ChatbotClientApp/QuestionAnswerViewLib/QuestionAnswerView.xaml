@@ -30,12 +30,16 @@
                 Grid.Row="0" Grid.ColumnSpan="2" 
                 Margin="5" MinWidth="400" MinHeight="100"
                 HorizontalAlignment="Center" VerticalAlignment="Center"
-                Text="{Binding Path=LinkId, Mode=TwoWay}" x:Name="fetchedQuestion"/>
+                FontSize="30" FontFamily="Times New Roman"
+                Text="{Binding Path=Question, Mode=TwoWay}" x:Name="FetchedQuestion"/>
 
-            <ComboBox 
+            <ListBox 
+                ItemsSource="{Binding Path=Options, Mode=TwoWay}"
                 Grid.Row="1" Grid.ColumnSpan="2"
                 Margin="5" MinWidth="400"
-                HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                FontSize="15"
+                HorizontalAlignment="Center" VerticalAlignment="Center"
+                SelectedItem="{Binding Path=SelectedOption, Mode=OneWayToSource}" />
 
             <Button 
                 Grid.Row="2" Grid.Column="0"

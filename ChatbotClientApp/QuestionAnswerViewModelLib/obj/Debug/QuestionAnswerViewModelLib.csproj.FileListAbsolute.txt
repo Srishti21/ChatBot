@@ -11,3 +11,19 @@ C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClient
 C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\obj\Debug\QuestionAnswerViewModelLib.csproj.CopyComplete
 C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\obj\Debug\QuestionAnswerViewModelLib.dll
 C:\Users\320066605\OneDrive - Philips\Documents\CaseStudy2\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\obj\Debug\QuestionAnswerViewModelLib.pdb
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\bin\Debug\QuestionAnswerViewModelLib.dll
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\bin\Debug\QuestionAnswerViewModelLib.pdb
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\bin\Debug\DataModelLib.dll
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\bin\Debug\MVVMUtilityLib.dll
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\bin\Debug\Newtonsoft.Json.dll
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\bin\Debug\DataModelLib.pdb
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\bin\Debug\MVVMUtilityLib.pdb
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\bin\Debug\Newtonsoft.Json.xml
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\obj\Debug\QuestionAnswerViewModelLib.csprojAssemblyReference.cache
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\obj\Debug\QuestionAnswerViewModelLib.csproj.CoreCompileInputs.cache
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\obj\Debug\QuestionAnswerViewModelLib.csproj.CopyComplete
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\obj\Debug\QuestionAnswerViewModelLib.dll
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\obj\Debug\QuestionAnswerViewModelLib.pdb
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\bin\Debug\QuestionAnswerViewModelLib.dll.config
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\bin\Debug\System.Net.Http.Formatting.dll
+C:\ChatBotServer2\Client\ChatBot\ChatbotClientApp\QuestionAnswerViewModelLib\bin\Debug\System.Net.Http.Formatting.xml
